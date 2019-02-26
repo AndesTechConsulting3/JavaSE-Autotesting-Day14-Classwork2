@@ -22,7 +22,7 @@ spisok_users
 
 par11_12_23323
 
-Метод isElementPresentTest должен хависить от метода
+Метод isElementPresentTest должен зависить от метода
 isSiteAliveTest
 
 4. Имя файла (файлов) с веб элементами передавать через конфиг 
