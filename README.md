@@ -11,8 +11,6 @@ TestNG, Parameters, Dependency, testng.xml
 3. Написать параметризованный метод  isElementPresentTest с параметром  webElement типа String.
 В этот параметр нужно передавать id элементов веб траницы из текстового       
 файла вида.
-Соответственно, сколько веб элементов считается, столько раз должен быть запущен тест
-isElementPresentTest.
 
 #web elements
 
@@ -23,6 +21,9 @@ btn22
 spisok_users
 
 par11_12_23323
+
+Соответственно, сколько веб элементов считается, столько раз должен быть запущен тест
+isElementPresentTest.
 
 Метод isElementPresentTest должен зависить от метода
 isSiteAliveTest. Т.е., если тест isSiteAliveTest не проходит, то тест
