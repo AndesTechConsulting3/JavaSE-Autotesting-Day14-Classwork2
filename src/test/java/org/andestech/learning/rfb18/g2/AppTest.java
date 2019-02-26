@@ -39,7 +39,7 @@ public class AppTest {
 
     @DataProvider
     public static Object[][] getURLs(ITestContext ctx) {
-        Object[][] urls = null;
+
         String filename = ctx.getCurrentXmlTest().getParameter("fname");
         System.out.println("fname: " + filename);
 
