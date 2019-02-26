@@ -25,7 +25,8 @@ spisok_users
 par11_12_23323
 
 Метод isElementPresentTest должен зависить от метода
-isSiteAliveTest
+isSiteAliveTest. Т.е., если тест isSiteAliveTest не проходит, то тест
+isElementPresentTest должен быть пропущен.
 
 4. Имя файла (файлов) с веб элементами передавать через конфиг 
 testng.xml
