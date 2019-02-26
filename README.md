@@ -15,8 +15,11 @@ TestNG, Parameters, Dependency, testng.xml
 #web elements
 
 id12987
+
 btn22
+
 spisok_users
+
 par11_12_23323
 
 Соответственно, сколько веб элементов считается, столько раз должен быть запущен тест
