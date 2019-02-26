@@ -13,9 +13,13 @@ TestNG, Parameters, Dependency, testng.xml
 файла вида
 
 #web elements
+
 id12987
+
 btn22
+
 spisok_users
+
 par11_12_23323
 
 Метод isElementPresentTest должен хависить от метода
