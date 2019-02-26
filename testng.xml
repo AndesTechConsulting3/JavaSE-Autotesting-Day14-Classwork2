@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="ClassWork03" >
+
+    <!--<listeners>-->
+        <!--<listener class-name="org.andestech.learning.rfb18.g2.MyTestListener" />-->
+        <!--<listener class-name="org.andestech.learning.rfb18.g2.MySuiteListener" />-->
+    <!--</listeners>-->
+
+    <test name="PositiveTest" allow-return-values="true" >
+
+        <parameter name="fname" value="src/test/resources/testdata1.txt" />
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="positiveTest" />-->
+            <!--</run>-->
+        <!--</groups>-->
+        <classes>
+
+            <class name="org.andestech.learning.rfb18.g2.AppTest" />
+
+        </classes>
+    </test>
+
+
+    <test name="NegativeTest">
+        <parameter name="fname" value="src/test/resources/testdata2.txt" />
+        <groups>
+            <run>
+                <include name="negativeTest" />
+            </run>
+        </groups>
+        <classes>
+            <class name="org.andestech.learning.rfb18.g2.AppTest" />
+        </classes>
+    </test>
+
+
+    <!--<test name="ListenerTest">-->
+        <!--<classes>-->
+            <!--<class name="org.andestech.learning.rfb18.g2.AppTest2" />-->
+            <!--<class name="org.andestech.learning.rfb18.g2.AppTest3" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+</suite>
