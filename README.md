@@ -8,11 +8,8 @@ TestNG, Parameters, Dependency, testng.xml
 2. Создать тестовый метод isSiteAliveTest с параметром url типа String.
     В этот параметр передавать адрес сайта из testng.xml.
 
-3. Написать параметризованный метод  isElementPresentTest с     
-
-параметром  webElement типа String.
+3. Написать параметризованный метод  isElementPresentTest с параметром  webElement типа String.
 В этот параметр передавать id элемтов веб траницы из текстового       
-
 файла вида
 
 #web elements
